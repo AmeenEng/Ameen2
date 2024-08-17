@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أمين العليمي - مطور برمجيات</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+            color: #333;
+            font-size: 0.8em; /* تصغير الخط */
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 95%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 970px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1170px;
+            }
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.8em;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.8em;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #34495e;
+        }
+
+        .projects {
+            margin-top: 30px;
+        }
+
+        .project-item {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-item h3 {
+            margin-top: 0;
+            font-size: 1em;
+            color: #2c3e50;
+        }
+
+        .project-item p {
+            margin: 0;
+        }
+
+        .project-item:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>أمين العليمي</h1>
+        <p>مطور برمجيات من اليمن</p>
+    </header>
+
+    <div class="container">
+        <section class="about-me">
+            <h2>عنّي</h2>
+            <p>مرحباً، اسمي أمين العليمي وأنا مطور برمجيات من اليمن. أبحث دائماً عن أفكار جديدة للمشاريع التي تخدم المجتمع وتوفر حلولاً للمشاكل المختلفة. لدي اهتمام خاص بتطوير أنظمة إدارة المدارس وابتكار حلول متوسطة الحجم في مجال تقنية المعلومات.</p>
+        </section>
+
+        <section class="projects">
+            <h2>مشاريعي</h2>
+            <div class="project-item">
+                <h3>نظام إدارة المدارس</h3>
+                <p>مشروع تخرج يهدف إلى تطوير نظام متكامل لإدارة المدارس يشمل تسجيل الطلاب، متابعة الحضور، وتقديم التقارير الإدارية.</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>تواصل معي</h2>
+            <form>
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا">
+
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" placeholder="اكتب بريدك الإلكتروني هنا">
+
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا"></textarea>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+
+</html>
