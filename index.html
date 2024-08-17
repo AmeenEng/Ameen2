@@ -179,18 +179,19 @@
 
         <section class="contact-form">
             <h2>تواصل معي</h2>
-            <form>
+            <form action="send_email.php" method="post">
                 <label for="name">الاسم</label>
-                <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا">
-
+                <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+            
                 <label for="email">البريد الإلكتروني</label>
-                <input type="email" id="email" name="email" placeholder="اكتب بريدك الإلكتروني هنا">
-
+                <input type="email" id="email" name="email" placeholder="اكتب بريدك الإلكتروني هنا" required>
+            
                 <label for="message">الرسالة</label>
-                <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا"></textarea>
-
+                <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا" required></textarea>
+            
                 <button type="submit">إرسال</button>
             </form>
+            
         </section>
     </div>
 
